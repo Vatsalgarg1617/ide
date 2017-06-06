@@ -27,7 +27,10 @@
             border-radius: 0px;
             height: 400px;
         }
+        
+        
     </style>
+    
 </head>
 
 <body>
@@ -248,11 +251,11 @@
         </div>
         <div class="col-md-4 colw90">
             <div class="fsHide">
-                <div class="sidecol" id="inputBox">
+                <div class="sidecol" id="inputBox" style="display: none;">
                     <div class="panel panel-default hovercard ">
                         <div class="panel-heading">Input</div>
                         <div class="panel-body">
-                                    <textarea class="textbox" id="test-input" rows="2"
+                                    <textarea class="textbox"  id="test-input" rows="2"
                                               style="width: 100%; max-width:100%;"
                                               placeholder="Enter your custom inputs"></textarea>
                         </div>
@@ -267,6 +270,7 @@
                     <button type="button" id="save" class="btn hover-light btn-sm btn-filled"
                             onclick="saveCode();">Save
                     </button>
+                    <button type="button" id = "CustomInput" class="btn hover-light btn-sm btn-filled" onclick="CustomBox();">Custom Input</button>
                     <button id="clear" type="button" class="btn bg-dark hover-light btn-sm">Clear All</button>
                 </div>
             </div>

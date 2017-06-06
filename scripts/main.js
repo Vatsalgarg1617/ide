@@ -260,3 +260,4 @@ function exitFullScreen() {
     else if (document.webkitExitFullscreen)
         document.webkitExitFullscreen();
 }
+        

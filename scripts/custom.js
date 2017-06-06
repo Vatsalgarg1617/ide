@@ -136,3 +136,11 @@ function resetSettings() {
     });
     changes = 1;
 }
+ function CustomBox() {
+    var x = document.getElementById('inputBox');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
