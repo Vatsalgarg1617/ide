@@ -138,6 +138,7 @@ function resetSettings() {
 }
  function CustomBox() {
     var x = document.getElementById('inputBox');
+     document.getElementById('test-input').value = '';
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
